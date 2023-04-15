@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+    display: inline-block;
+    z-index: 100;
+    position: fixed;
+}
+
+.hamburger-menu span {
+    display: block;
+    background-color: gray;
+    height: 2px;
+    width: 25px;
+    margin-bottom: 4px;
+}
+
+.nav-link {
+    display: none;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.hamburger-menu.open {
+    background-color: darkgray;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px;
+}
+
+.nav-link.open {
+    display: block;
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+    padding-top: 40px;
+    margin: auto;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
